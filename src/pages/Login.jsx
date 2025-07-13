@@ -19,7 +19,7 @@ function Login() {
               <div className="col-12">
                 <div className="d-flex align-items-center mb-5">
                   <img
-                    src="/images/piggy-bank.png"
+                    src={`${import.meta.env.BASE_URL}images/piggy-bank.png`}
                     alt="Logo Bank"
                     style={{ width: '25px' }}
                     className="me-3"
@@ -51,7 +51,7 @@ function Login() {
 
           <div className="col-md-6 d-none d-md-block p-3" data-aos="fade-left">
             <img
-              src="/images/img-3.jpg"
+              src={`${import.meta.env.BASE_URL}images/img-3.jpg`}
               alt="Ilustrasi"
               className="rounded img-fluid"
               

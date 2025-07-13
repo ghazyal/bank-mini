@@ -3,14 +3,14 @@ function Dashboard() {
     <div className="container-fluid">
       <div className="row">
         {/* Sidebar */}
-        <div className="col-md-2 bg-dark text-white vh-100 p-3">
-          <h4 className="mb-4">SIBANI</h4>
+        <div className="col-md-2 bg-dashboard text-white vh-100 p-3">
+          <h4 className="mb-4">Bank Mini</h4>
           <ul className="nav flex-column">
             <li className="nav-item">
-              <a href="#" className="nav-link text-white">Dashboard</a>
+              <a href="#" className="nav-link text-white active mb-2"><i className="fas fa-tachometer-alt me-2"></i>Dashboard</a>
             </li>
             <li className="nav-item">
-              <a href="#" className="nav-link text-white">Transaksi</a>
+              <a href="#" className="nav-link text-white mb-2">Transaksi</a>
             </li>
             <li className="nav-item">
               <a href="#" className="nav-link text-white">Nasabah</a>

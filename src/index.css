@@ -19,3 +19,13 @@ html, body {
   background: linear-gradient(135deg, #c02621, #910e13);
   color: #fff;
 }
+
+.bg-dashboard{
+  background-color: #303030;
+}
+
+.active{
+  background: linear-gradient(135deg, #e52d27, #b31217); 
+  color: #fff;
+  border-radius: 5px;
+} 
